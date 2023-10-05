@@ -3,7 +3,7 @@
 /**
   * main - entry point
   *
-  * Decription: c program that prints the size of various types
+  * Decription: c program that prints text
   *
   * Return: success - 1
   *
