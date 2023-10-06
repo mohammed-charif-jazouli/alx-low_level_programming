@@ -8,8 +8,8 @@
  * Description: c file that prints the sign of a random number n
  *
  * Return: success - 0
- * 
- * */
+ *
+ */
 
 int main(void)
 {
