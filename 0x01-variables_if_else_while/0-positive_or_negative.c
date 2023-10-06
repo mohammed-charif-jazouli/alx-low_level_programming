@@ -2,7 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - entry point
+ *
+ * Description: c file that prints the sign of a random number n
+ *
+ * Return: success - 0
+ * 
+ * */
+
 int main(void)
 {
 	int n;
