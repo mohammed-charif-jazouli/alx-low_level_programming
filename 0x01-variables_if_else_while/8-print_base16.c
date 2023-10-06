@@ -11,11 +11,13 @@
 
 int main(void)
 {
-	char z = 'z', new_line = '\n';
+	char a = 'a', new_line = '\n';
 	int i;
 
-	for (i = 0; i < 26; i++)
-		putchar(z - i);
+	for (i = 0; i < 10; i++)
+		putchar('0' + i);
+	for (i = 0; i < 6; i++)
+		putchar(a + i);
 	putchar(new_line);
 
 	return (0);
