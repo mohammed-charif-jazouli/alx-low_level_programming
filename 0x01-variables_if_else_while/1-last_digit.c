@@ -5,7 +5,7 @@
 /**
  * main - entry point
  *
- * Description: c file that prints the sign of a random number n
+ * Description: c file that prints the first digit of n
  *
  * Return: success - 0
  *
