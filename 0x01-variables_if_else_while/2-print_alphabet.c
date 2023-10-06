@@ -13,10 +13,10 @@ int main(void)
 {
 	char a = 'a', new_line = '\n';
 	int i;
-	
-	for (i = 0; i < 26;i++)
-		putchar(a+i);
+
+	for (i = 0; i < 26; i++)
+		putchar(a + i);
 	putchar(new_line);
-	
+
 	return (0);
 }
