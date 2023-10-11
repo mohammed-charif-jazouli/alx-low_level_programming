@@ -1,25 +1,23 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - entry point
  *
- * Description: c file that prints the alphabet
+ * Description: print _putchar
  *
- * Return: success - 0
+ * Return: on success: 0
  *
  */
 
 int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+	char string[] = "_putchar";
+	int i;
+	
+	for (i = 0; i < 8; i++)
+		_putchar(string[i]);
+	_putchar('\n');
 
 	return (0);
 }
