@@ -18,8 +18,8 @@ void times_table(void)
 		{
 			_putchar(',');
 			mult = i * j;
-			d1 = (mult - (mult % 100)) / 100;
-			d2 = ((mult % 100) - (mult % 10)) / 10;
+			d1 = mult / 100;
+			d2 = mult / 10;
 			d3 = i % 10;
 			if (d1 == 0)
 				_putchar(' ');
