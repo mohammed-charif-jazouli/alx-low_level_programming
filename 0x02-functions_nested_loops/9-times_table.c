@@ -13,8 +13,10 @@ void times_table(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 0; j < 10; j++)
+		_putchar('0');
+		for (j = 1; j < 10; j++)
 		{
+			_putchar(',');
 			mult = i * j;
 			d1 = (mult - (mult % 100)) / 100;
 			d2 = ((mult % 100) - (mult % 10)) / 10;
@@ -28,7 +30,6 @@ void times_table(void)
 			else
 				_putchar('0' + d2);
 			_putchar('0' + d3);
-			_putchar(',');
 
 		}
 		_putchar('\n');
