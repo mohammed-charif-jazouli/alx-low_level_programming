@@ -20,7 +20,7 @@ void times_table(void)
 			mult = i * j;
 			d1 = mult / 100;
 			d2 = mult / 10;
-			d3 = i % 10;
+			d3 = mult % 10;
 			if (d1 == 0)
 				_putchar(' ');
 			else
