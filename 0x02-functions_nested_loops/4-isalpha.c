@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - check for alphabetic character
+ * _isalpha - check for alphabetic character
  * @c: character to check
  *
  * Return: alphabet: 1
@@ -9,7 +9,7 @@
  *
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 	if (c >= 'A' && c <= 'z')
 		return (1);
